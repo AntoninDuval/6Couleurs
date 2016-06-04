@@ -49,8 +49,9 @@ public class Console {
 	
 	public static void main(String[] args) {		
 		// TODO Auto-generated method stub
-		//menuJeu();
+		menuJeu();
 		ftr.playSound("musique.wav");
+		
 	}
 	
 	
@@ -74,8 +75,7 @@ public class Console {
 	       topmenu.setOpaque(false);
 		   ftr.add(topmenu, BorderLayout.NORTH);
 		   ftr.add(menumiddle, BorderLayout.CENTER);		   
-		   ftr.setVisible(true); 
-		   
+		   ftr.setVisible(true); 		   
 	   }
 	public static void menuChoix(){	
 		JPanel contentGrille = new JPanel();
